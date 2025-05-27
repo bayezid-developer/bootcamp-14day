@@ -1,0 +1,130 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+ background: linear-gradient(#E6E6FA , #B9E7FA);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F5FD;
+    padding:24px 80px;
+    text-align: center;
+    align-items: center;
+    box-shadow:  3px 5px 10px rgba(0, 0, 0, 0.144);
+}
+header h1 span{
+    color: #FFA500;
+}
+.btn{
+     padding: 15px 25px;
+     border: none;
+     background: linear-gradient( 100deg , #FCB736 , #FCD868);
+     border-radius: 5px;
+    box-shadow: 2px 3px 6px #C2C6CC;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+.btn:hover{
+    background: linear-gradient(100deg ,  #f1ae31 , #f7d265);
+
+}
+.why-developer , #ins-container , .target{ 
+    margin: 100px auto;
+    width: 87.5%;
+    text-align: center;
+}
+#become-dev{
+    margin: 100px auto;
+    width: 87.5%;
+    text-align: center;
+      padding: 40px 60px;
+    background-color:#E6EDF9;
+   border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.become-dev-text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+ p{
+    font-size: 20px;
+    line-height:30px ;
+     margin-bottom: 30px;
+     color: #4E5562;
+}
+.ins-p{
+    font-size: 20px;
+    line-height:30px ;
+     margin-bottom: 30px;
+     color: #4E5562;
+    font-family: "Roboto", sans-serif;
+}
+.become-dev-img {
+    margin-bottom: 30px;
+}
+.why-developer h2 , .ins-content h2 , .target-text h2  {
+    margin-bottom: 30px;
+    font-size:45px ;
+}
+#coding{
+    padding: 40px 60px;
+    background-color:#E6EDF9;
+   border-radius: 10px;
+    display: flex;  
+     margin: 100px auto;
+    width: 87.5%;
+}
+
+  h3 {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.ins-video{
+    border: 1px solid #9CC2D4;
+    border-radius: 15px;
+}
+iframe{
+   width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    border: 10px solid #B8E7FA;
+    align-items: center;
+}
+ .card{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+ }
+ .card-content{ 
+    background: linear-gradient(#E0ECFA , #A5E6FF);
+    padding: 50px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: left;
+    height: 250px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.568);
+ }
+ footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    background-color:#E2F5FD ;
+ }
+ .foot-link{
+    display: flex;
+    gap: 20px;
+ }
