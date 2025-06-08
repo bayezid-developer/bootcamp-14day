@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Nature Plate</title>
 </head>
-<body class="font-[Sora]">
+<body class="font-[Sora]  ‍">
     <!-- Start Navbar -->
      <div class=" bg-linear-to-t from-[#FFFFFF] to-[#EFEBE3] border-2 border-green-700 ‍ sm:border-none">
 <div class="flex items-center justify-between w-[80%] mx-auto pt-6">
@@ -21,10 +21,10 @@
             <img src="assets/logo-green.png" alt="" class="  hidden sm:block">
             <img src="assets/modile-logo.png" alt="" class=" items-center pb-3.5 text-center block sm:hidden">
         </div>
-        <div class="flex  justify-end items-center">
+        <div class="flex  justify-end items-center ">
             <div class=" text-base font-medium hidden sm:block" >
-            <a href="" class="mr-12 hover:border-b-3 border-[#179800]  ease-in duration-100 rounded-sm">Product</a>
-            <a href="" class="mr-12 hover:border-b-3 border-[#179800]  ease-in duration-100 rounded-sm">Service</a>
+            <a href="#product" class=" mr-12 hover:border-b-3  border-[#179800]  ease-in duration-100 rounded-sm">Product</a>
+            <a href="#service" class="mr-12 hover:border-b-3 border-[#179800]  ease-in duration-100 rounded-sm">Service</a>
             <a href="" class="mr-12 hover:border-b-3 border-[#179800]  ease-in duration-100 rounded-sm">Contact Us</a>
         </div>
         <div class="text-[22px] hidden sm:block">
@@ -55,9 +55,9 @@
       </div>
       <!-- Close Hero area -->
        <!-- Start Service -->
-        <h1 class="w-[80%] mx-auto my-[40px] font-black text-3xl text-[#179800]">Services</h1>
+        <h1 class="w-[80%] mx-auto my-[40px] font-black text-3xl text-[#179800]" id="service">Services</h1>
 
-        <div class="w-[80%] mx-auto text-center gap-3.5 grid grid-cols-1 sm:grid-cols-3    ">
+        <div class="w-[80%] mx-auto text-center gap-3.5 grid grid-cols-1 sm:grid-cols-3    " >
             <div class=" bg-[#EFEBE3] flex flex-col justify-center p-5 rounded-[16px] shadow-xl mx-auto">
                 <div>
                     <img src="assets/support.png" alt="" class="w-27 mx-auto ">
@@ -89,7 +89,7 @@ We value things, so we offer fast and reliable delivery services. We have built 
         </div>
         <!-- Close Service -->
          <!-- Star Product -->
-         <div class="bg-[#EFEBE3]  mt-15 py-40">
+         <div class="bg-[#EFEBE3]  mt-15 py-40" id="product">
              <div class="w-[80%] mx-auto my-[40px] font-black text-3xl text-[#179800] ">
                <h1 class="">Popular Products</h1>
             </div>
@@ -206,9 +206,9 @@ We value things, so we offer fast and reliable delivery services. We have built 
                 <h1 class="w-[80%] mx-auto my-[40px] font-black text-3xl text-[#179800]">Arrival & Offers</h1>
             </div>
 
-            <div class="w-[80%] mx-auto bg-[#FFFFFF] flex  flex-col gap-5 pb-60 ‍ sm:flex-row w-170">
+            <div class="w-[80%] mx-auto bg-[#FFFFFF] flex  flex-col gap-5 pb-30 ‍ sm:flex-row ">
                 <!-- discount card -->
-                <div class="bg-[#115414] flex justify-between flex-row  p-5 rounded-xl shadow-xl sm:w-140">
+                <div class="bg-[#115414] flex justify-between flex-row  p-5 rounded-xl shadow-xl sm:w-[60%]">
                    <div class="flex flex-col">
                      <div>
                         <img src="assets/dawat-logo.png" alt="" class="w-35">
@@ -226,7 +226,7 @@ We value things, so we offer fast and reliable delivery services. We have built 
 
 
              <!-- discount card -->
-                <div class="bg-[#102861] flex justify-between flex-row  p-5 rounded-xl ">
+                <div class="bg-[#102861] flex justify-between flex-row  p-5 rounded-xl sm:w-[40%] ">
                    <div class="flex flex-col">
                      <div>
                         <img src="assets/indiagate-logo.png" alt="" class="w-20">
@@ -243,5 +243,73 @@ We value things, so we offer fast and reliable delivery services. We have built 
             </div>
            </div>
                </div>
+
+
+               <!-- footer -->
+                <div class=" relative z-10 mb-[-180px] w-[80%] mx-auto bg-[#EFEBE3] flex rounded-xl p-5 items-center flex-col sm:flex-row  ">
+        <!-- img -->
+        <div>
+            <img src="assets/fruit-basket.png" alt="" class="w-[80%]  mx-auto">
+        </div>
+        <!-- aside -->
+         <div class="text-center sm:text-left">
+            <h1 class=" font-bold text-3xl mt-5 mb-3  sm:mb-3  ">Get Grocery News!</h1>
+           <p class="mb-3">Exclusive training tips, ticks, product deals and more.</p>
+           <input class=" itmes-left border border-teal-500 mb-5 p-2 w-[90%] ml-0 rounded-sm bg-white duration-300 focus:border-teal-700 outline-none " type="email" name="email" id="email" placeholder="Enter Email...."> <br>
+             <button class="font-bold rounded-[8px] bg-[#179800]  px-[30px] py-[10px] text-white hover:bg-green-700 cursor-pointer duration-300   ">Subscribe</button>
+         </div>
+     </div>
+
+
+
+
+
+
+<footer class=" relative bg-[#179800] pt-60 pb-20 ">
+  <div class="w-[80%] mx-auto text-white flex flex-col gap-10 sm:flex-row sm:justify-between sm:items-start">
+    
+    <!-- Logo & Text -->
+    <div>
+      <img src="assets/logo-white.png" alt="">
+      <p class="mt-4 max-w-xs">
+        Discover a world of treats, toys, and essentials handpicked for your furry friends
+      </p>
+    </div>
+
+    <!-- Links -->
+    <div class="flex flex-col gap-3">
+      <a href="#product">Product</a>
+      <a href="#service">Services</a>
+      <a href="#contact">Contact us</a>
+   
+    </div>
+
+    <!-- Social Icons -->
+    <div>
+<div class="mb-4">  <h2 class="mt-5 font-semibold">Follow us</h2>  </div>  
+ <div class="flex gap-8 items-end">
+       
+      <a href="https://www.facebook.com/profile.php?id=61573929178151" target="_blank">
+        <i class="fa-brands fa-facebook text-2xl"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bayezid-developer" target="_blank">
+        <i class="fa-brands fa-linkedin text-2xl"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fa-brands fa-instagram text-2xl"></i>
+      </a>
+      <a href="https://www.youtube.com" target="_blank">
+        <i class="fa-brands fa-youtube text-2xl"></i>
+      </a>
+    </div>
+
+  </div>
+</div>
+    </footer>
+   
+
+
+
+
 </body>
 </html>  
